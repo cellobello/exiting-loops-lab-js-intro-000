@@ -20,6 +20,8 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findFn() {
+  return 5;
+}
 
 function findBy(array, findFn) {
   for(var i = 0; i<array.length; i++) {
