@@ -19,11 +19,6 @@ function keepGoing(array, changeValue, skipValue) {
   return array;
 }
 
-function findFn() {
-	const c = Math.floor(Math.random() * 100);
-	return c;
-}
-
 function findBy(array, findFn) {
 	for (let i = 0; i < array.length; i++) {
 		if(array[i] === findFn()) {
