@@ -20,7 +20,7 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findFn() {
-	return 5
+	return 
 }
 
 function findBy(array, findFn) {
