@@ -20,7 +20,7 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findFn() {
-	return 
+	return Math.floor(Math.random() * 100)
 }
 
 function findBy(array, findFn) {
