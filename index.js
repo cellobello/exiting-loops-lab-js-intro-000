@@ -19,6 +19,8 @@ function keepGoing(array, changeValue, skipValue) {
   return array;
 }
 
+function findFn() {
+
 function findBy(array, findFn) {
   for(var i = 0; i<array.length; i++) {
     if(array[i] === findFN()) {
@@ -27,3 +29,4 @@ function findBy(array, findFn) {
     return null;
   }
 }
+
