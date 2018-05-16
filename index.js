@@ -20,7 +20,8 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findFn() {
-	return Math.floor(Math.random() * 100)
+	const c = Math.floor(Math.random() * 100);
+	return c;
 }
 
 function findBy(array, findFn) {
